@@ -24,7 +24,7 @@ html {
 }
 
 body {
-  font-family: "Mozilla Headline";
+  font-family: "Inter";
   color: #FFFFFD;
   background-color: #070b15;
 }
@@ -36,4 +36,118 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   outline: 2px solid rgb(0, 255, 42);
+}
+
+.header {
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+.header__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__list {
+  display: flex;
+  gap: 40px;
+}
+.header__items {
+  position: relative;
+}
+.header__link {
+  color: rgba(255, 255, 253, 0.72);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.56;
+  transition-property: color;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition-duration: 250ms;
+}
+.header__link:hover {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.56;
+}
+.header__link::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background-color: #D6EF0E;
+  opacity: 0;
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition-duration: 250ms;
+}
+.header__link:hover::after {
+  display: block;
+  opacity: 1;
+}
+.header__btn {
+  padding: 12px 40px;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.92; /* 19.2px */
+  border-radius: 8px;
+  background: #D6EF0E;
+  border: none;
+}
+
+.hero {
+  padding-top: 92px;
+  padding-bottom: 92px;
+}
+.hero__title {
+  color: #FFFFFD;
+  font-family: "Funnel Display";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 76.8px */
+  width: 544px;
+  margin-bottom: 20px;
+}
+.hero__span {
+  color: #D6EF0E;
+  font-family: "Funnel Display";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.hero__text {
+  color: #FFFFFD;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6; /* 25.6px */
+  width: 544px;
+  margin-bottom: 40px;
+}
+.hero__list {
+  display: flex;
+  gap: 36px;
+}
+.hero__link {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 19.2px */
+}
+
+.button {
+  padding: 12px 40px;
+  border-radius: 8px;
+  background: #D6EF0E;
 }/*# sourceMappingURL=main.css.map */

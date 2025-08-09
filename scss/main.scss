@@ -2,3 +2,10 @@
 @use "./base/common";
 @use "./base/container";
 @use "./base/variables";
+@use "./sections/header";
+@use "./sections/hero";
+@use "./sections//amazing";
+@use "./sections/sell";
+@use "./sections/artists";
+@use "./sections/update";
+@use "./sections/footer";

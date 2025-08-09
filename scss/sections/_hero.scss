@@ -1,0 +1,53 @@
+.hero{
+    padding-top: 92px;
+    padding-bottom: 92px;
+    &__title{
+        color:#FFFFFD;
+font-family: "Funnel Display";
+font-size: 64px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.20; /* 76.8px */
+width: 544px;
+margin-bottom: 20px;
+    }
+    &__span{
+        color: #D6EF0E;
+font-family: "Funnel Display";
+font-size: 64px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.20;
+    }
+
+    &__text{
+        color: #FFFFFD;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.60; /* 25.6px */
+width: 544px;
+margin-bottom: 40px;
+    }
+
+    &__list{
+        display: flex;
+        gap: 36px;
+    }
+
+    &__link{
+        color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 19.2px */
+    }
+}
+
+.button{
+    padding: 12px 40px;
+    border-radius: 8px;
+background: #D6EF0E;
+}
