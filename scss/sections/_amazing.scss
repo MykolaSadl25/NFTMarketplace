@@ -1,0 +1,115 @@
+.amazing{
+    padding-top: 92px;
+    padding-bottom: 92px;
+
+    &__box{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        margin-bottom: 64px;
+    }
+
+    &__title{
+        color: #FFFFFD;
+font-family: "Funnel Display";
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.20;
+width: 506px;
+    }
+
+    &__btn{
+        color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.20; /* 19.2px */
+border-radius: 8px;
+background: #D6EF0E;
+padding: 12px 40px;
+border: none;
+    }
+
+    &__list{
+        display: flex;
+        gap: 30px;
+    }
+
+    &__item{
+        border-radius: 28px;
+        border-top: 1px solid #D6EF0E;
+        background: #131E3A;
+        padding: 20px;
+    }
+
+    &__img{
+        width: 370px;
+height: 340px;
+border-radius: 16px;
+margin-bottom: 24px;
+    }
+
+    &__text{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 16px;
+    }
+
+    &__heading{
+        color:#FFFFFD;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.20; /* 28.8px */
+    }
+
+    &__price{
+        color:#FFFFFD;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.20; /* 19.2px */
+    }
+
+    &__time{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__desc{
+        color: #838382;
+font-family: Inter;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.60;
+    }
+    
+    &__hour{
+        color: #FFFFFD;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.20; /* 19.2px */
+    }
+
+    &__button{
+        color: #D6EF0E;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.20; /* 19.2px */
+padding: 12px 40px;
+border-radius: 8px;
+border: 1px solid #D6EF0E;
+background-color: transparent;
+    }
+    }
+

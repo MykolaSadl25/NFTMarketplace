@@ -1,0 +1,71 @@
+.sell{
+    padding-top: 92px;
+    padding-bottom: 92px;
+
+    &__box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__wrap{
+        display: flex;
+       justify-content: space-between;
+    }
+
+    &__title{
+        color:#FFFFFD;
+font-family: "Funnel Display";
+font-size: 48px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.20; /* 57.6px */
+width: 426px;
+margin-bottom: 20px;
+    }
+
+    &__text{
+        color:#FFFFFD;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.60; /* 25.6px */
+width: 426px;
+margin-bottom: 40px;
+    }
+
+    &__list{
+        display: flex;
+        gap: 36px;
+    }
+
+    &__link{
+        color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 1.20; /* 19.2px */
+    }
+
+    &__img{
+position: relative;
+    }
+
+    &__image{
+        width: 410px;
+height: 475px;
+border-radius: 24px;
+
+    }
+
+    &__image2{
+        width: 410px;
+height: 475px;
+border-radius: 24px;
+position: absolute;
+top: 159px;
+right: 330px;
+    }
+}
