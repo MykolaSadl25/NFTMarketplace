@@ -416,4 +416,86 @@ body {
   position: absolute;
   top: 159px;
   right: 330px;
+}
+
+.artists {
+  padding-top: 92px;
+  padding-bottom: 92px;
+}
+.artists__box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 64px;
+}
+.artists__title {
+  color: #FFFFFD;
+  font-family: "Funnel Display";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2; /* 57.6px */
+  width: 307px;
+}
+.artists__btn {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2; /* 19.2px */
+  padding: 12px 40px;
+  border-radius: 8px;
+  background: #D6EF0E;
+  border: none;
+}
+.artists__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.artists__image1 {
+  width: 300px;
+  height: 311px;
+  border-radius: 16px;
+  position: relative;
+}
+.artists__image2 {
+  width: 520px;
+  height: 311px;
+  border-radius: 16px;
+  position: relative;
+}
+.artists__image3 {
+  width: 410px;
+  height: 311px;
+  border-radius: 16px;
+  position: relative;
+}
+.artists__image4 {
+  width: 410px;
+  height: 311px;
+  border-radius: 16px;
+  position: relative;
+}
+.artists__image5 {
+  width: 410px;
+  height: 652px;
+  border-radius: 16px;
+  position: relative;
+}
+.artists__position {
+  display: flex;
+  gap: 12px;
+  position: absolute;
+}
+.artists__boxes1 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.artists__pic {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
 }/*# sourceMappingURL=main.css.map */
